@@ -17,9 +17,9 @@ type Profile struct {
 }
 
 func setupDB() {
-    client.Addr = "VM IP:VM PORT"
+    client.Addr = "192.168.3.241:16696"
     client.Db = 0
-    client.Password = "PASSWORD"
+    client.Password = "ajul827gtcj4z9hbd27wl1jgpu69vogd"
 }
 
 func newHandler(w http.ResponseWriter, r *http.Request) {
